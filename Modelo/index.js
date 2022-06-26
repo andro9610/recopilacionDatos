@@ -4,5 +4,5 @@ window.onload = function(){
 }
 
 function goToCasa(){
-    location.href = "./Controlador/casa.html";
+    location.href = "https://andro9610.github.io/recopilacionDatos/Controlador/casa.html";
 }
