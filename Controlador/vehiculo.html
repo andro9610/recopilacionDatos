@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recopilacion de datos: Mascota</title>
+        <link rel="shorcut icon" type="image/png" href="../Vista/favicon/icon.png">
+        <link rel="stylesheet" href="../Vista/base.css">
+        <link rel="stylesheet" href="../Vista/encabezado.css">
+        <link rel="stylesheet" href="../Vista/contenedores.css">
+        <link rel="stylesheet" href="../Vista/campos.css">
+        <link rel="stylesheet" href="../Vista/botones.css">
+        <link rel="stylesheet" href="../Vista/piePagina.css">
+        <script type="module" src="../Modelo/Objetos/Vehiculo.js"></script>
+        <script type="module" src="../Modelo/RecopilacionDatosVehiculo.js"></script>
+    </head>
+    <body>
+        <div class="encabezadoPagina">
+            <h1>Recopilacion de datos</h1>
+            <h2>Sobre los las Vehiculo</h2>
+        </div>
+        <div class="espacioBlanco"></div>
+        <div class="contenedor">
+            <label class="etiqueta">Placa</label>
+            <input type="text" class="Campo" id="placa" placeholder="XXX123">
+
+            <label class="etiqueta">Tipo de vehiculo</label>
+            <select class="Lista" id="tipoVehiculo">
+                <option value="Ninguno">Seleccione Item</option>
+            </select>
+        </div>
+
+        <div class="contenedorBotones">
+            <button class="botonNinguno" id="botonNinguno">No hay Vehiculo</button>
+            <button class="botonAgregar" id="botonAgregar">Agregar Vehiculo</button>
+            <button class="botonPrincipal" id="botonContinuar">Finalizar recopilacion</button>
+        </div>
+        <footer>
+            <img src="../Vista/favicon/icon.png" class="imagenPiePagina">
+            <div class="textoPiePagina">
+                Junta de acción comunal
+                <br>
+                Praderas de Mosquera II
+            </div>
+        </footer>
+    </body>
+</html>

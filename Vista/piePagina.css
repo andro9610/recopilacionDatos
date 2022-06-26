@@ -1,0 +1,35 @@
+/**Se importa "fuentes.css" para traer las fuentes de todo el documento*/
+@import url('fuentes.css');
+
+footer {
+    position: fixed;
+
+    bottom: 0;
+
+    padding-top: 4%;
+    padding-bottom: 4%;
+
+    width: 100%;
+    height: 2.5rem;
+
+    background-color: #0055c5;
+    color: white;
+
+    font-family: Timeless;
+    text-align: center;
+}
+
+.imagenPiePagina{
+    position: absolute;
+    left: 3%;
+    top: 23%;
+
+    width: 50%;
+    height: 50%;
+    object-fit: scale-down;
+}
+
+.textoPiePagina{
+    position: absolute;
+    left: 35%;
+}

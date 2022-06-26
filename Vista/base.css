@@ -1,0 +1,29 @@
+/**Se importa "fuentes.css" para traer las fuentes de todo el documento*/
+@import url('fuentes.css');
+
+/**Personalizacion general*/
+body{
+    display: block;
+    font-family: Timeless;
+    background-color: #ebebeb;
+    margin: 0%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+}
+
+.espacioBlanco{
+    display:block;
+    height: 8rem;
+}
+
+.espacioBlancoFooter{
+    display:block;
+    padding-top: 35%;
+    height: 0.001rem;
+}
+
+tittle{
+    visibility: hidden;
+}
+ 

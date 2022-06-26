@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recopilacion de datos: Casa</title>
+    <link rel="shorcut icon" type="image/png" href="../Vista/favicon/icon.png">
+    <link rel="stylesheet" href="../Vista/base.css">
+    <link rel="stylesheet" href="../Vista/encabezado.css">
+    <link rel="stylesheet" href="../Vista/contenedores.css">
+    <link rel="stylesheet" href="../Vista/campos.css">
+    <link rel="stylesheet" href="../Vista/botones.css">
+    <link rel="stylesheet" href="../Vista/piePagina.css">
+    <script type="module" src="../Modelo/Objetos/habitante.js"></script>
+    <script type="module" src="../Modelo/RecopilacionDatosHabitante.js"></script>
+</head>
+<body>
+    <div class="encabezadoPagina">
+        <h1>Recopilacion de datos</h1>
+        <h2>Sobre los habitantes de la casa</h2>
+    </div>
+    <div class="espacioBlanco"></div>
+    <div class="contenedor">
+        <h3>Datos basicos</h3>
+        <label class="etiquetaInicial">Tipo de documento</label>
+        <select class="Lista" id="tipoDocumento">
+            <option value="CC">Cedula de ciudadania</option>
+            <option value="TI">Tarjeta de identidad</option>
+            <option value="RC">Registro civil</option>
+            <option value="CE">Cedula de extranjeria</option>
+            <option value="Pasaporte">Pasaporte</option>
+            <option value="PPT">Permiso de proteccion temporal</option>
+            <option value="PEP">Permiso especial de permanencia</option>
+        </select>
+        <label class="etiqueta">Numero de documento</label>
+        <input type="number" class="Campo" id="numeroDocumento" placeholder="minimo 8 digitos">
+        <label class="etiqueta">Nombre</label>
+        <input type="text" id="nombre" class="Campo" placeholder="Nombre">
+        <label class="etiqueta">Apellido</label>
+        <input type="text" id="apellido" class="Campo" placeholder="Apellido">
+        
+        <label class="etiqueta">Genero</label>
+        <select class="Lista" id="genero">
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+            <option value="Intersexual">Intersexual</option>
+        </select>
+
+        <label class="etiqueta">Fecha de nacimiento</label>
+        <input type="date" class="Fecha" id="fechaNacimiento">
+
+        <label class="etiqueta">Grado de escolaridad</label>
+        <select class="Lista" id="gradoEscolaridad">
+            <option value = "Ninguno">Seleccione Item</option>
+            <option value = "Sala Cuna">Sala Cuna</option>
+            <option value = "Parvulos">Parvulos</option>
+            <option value = "Prekinder">Prekinder</option>
+            <option value = "Transicion">Transicion</option>
+            <option value = "Basica Primaria">Basica Primaria</option>
+            <option value = "Basica Secundaria">Basica Secundaria</option>
+            <option value = "Media Academica">Media Academica</option>
+            <option value = "Tecnico">Tecnico</option>
+            <option value = "Tecnologo">Tecnologo</option>
+            <option value = "Pregrado">Pregrado</option>
+            <option value = "Posgrado">Posgrado</option>
+        </select>
+        <label class="etiqueta">¿Estudios en curso?</label>
+        <input type="checkbox" id="estudiosEnCurso">
+        <label class="etiqueta">¿Tiene algun tipo de discapacidad?</label>
+        <input type="checkbox" id="discapacidad">
+    </div>
+
+    <div class="contenedor">
+        <h3>Información de residencia</h3>
+
+        <label class="etiqueta">Tipo de propiedad</label>
+        <select class="Lista" id="tipoPropiedad">
+            <option value = "Residente">Residente</option>
+            <option value = "Propietario">Propietario</option>
+            <option value = "Arrendatario">Arrendatario</option>
+        </select>
+
+        <label class="etiqueta">¿Desde cuando vive en la urbanización?</label>
+        <input type="date" class="Fecha" id="fechaInicioResidencia">
+    </div>
+
+    <div class="contenedor">
+        <h3>Información de contacto</h3>
+
+        <label class="etiqueta">Direccion de correo</label>
+        <input type="email" id="email" class="Campo">
+
+        <label class="etiqueta">Numero de telefono</label>
+        <input type="number" id="telefono" class="Campo">
+    </div>
+
+    <div class="contenedorBotones">
+        <button class="botonAgregar" id="botonAgregar">Agregar Habitante</button>
+        <button class="botonPrincipal" id="botonContinuar">Ir a mascotas</button>
+    </div>
+    <div class="espacioBlancoFooter"></div>
+    <footer>
+        <img src="../Vista/favicon/icon.png" class="imagenPiePagina">
+        <div class="textoPiePagina">
+            Junta de acción comunal
+            <br>
+            Praderas de Mosquera II
+        </div>
+    </footer>
+    </body>
+</html>

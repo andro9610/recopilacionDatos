@@ -1,0 +1,14 @@
+/**Se importa "fuentes.css" para traer las fuentes de todo el documento*/
+@import url('fuentes.css');
+
+/**Encabezado de pagina*/
+.encabezadoPagina{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0055c5;
+    color: white;
+    font-family: Timeless Bold;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+/**Agregado de la fuente Timeless*/
+@font-face {
+    font-family: 'Timeless';
+    src: url('Fuentes/Timeless.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Timeless Bold';
+    src: url('Fuentes/Timeless-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}

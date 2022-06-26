@@ -1,0 +1,52 @@
+@import url('./fuentes.css');
+
+.botonPrincipal{
+    background-color: transparent;
+    border: 3px solid #0055c5;
+    color: #0055c5;
+    font-family: Timeless Bold;
+    border-radius: 10px;
+    padding: 4% 10%;
+    font-size: 1em;
+}
+
+.botonPrincipal:active{
+    background-color: #0055c5;
+    color: white;
+}
+
+
+/**Boton Agregar "Cosas"*/
+.botonAgregar{
+    background-color: transparent;
+    border: 3px solid #0055c5;
+    color: #0055c5;
+    font-family: Timeless Bold;
+    border-radius: 10px;
+    padding: 4% 10%;
+    margin-bottom: 4%;
+    font-size: 1em;
+}
+
+.botonAgregar:active{
+    background-color: #0055c5;
+    color: white;
+}
+
+/**Boton No hay "Cosas"*/
+/**Boton Agregar "Cosas"*/
+.botonNinguno{
+    background-color: transparent;
+    border: 3px solid #0055c5;
+    color: #0055c5;
+    font-family: Timeless Bold;
+    border-radius: 10px;
+    padding: 4% 10%;
+    margin-bottom: 4%;
+    font-size: 1em;
+}
+
+.botonNinguno:active{
+    background-color: #0055c5;
+    color: white;
+}

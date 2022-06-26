@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Recopilacion de datos: Mascota</title>
+        <link rel="shorcut icon" type="image/png" href="../Vista/favicon/icon.png">
+        <link rel="stylesheet" href="../Vista/base.css">
+        <link rel="stylesheet" href="../Vista/encabezado.css">
+        <link rel="stylesheet" href="../Vista/contenedores.css">
+        <link rel="stylesheet" href="../Vista/campos.css">
+        <link rel="stylesheet" href="../Vista/botones.css">
+        <link rel="stylesheet" href="../Vista/piePagina.css">
+        <script type="module" src="../Modelo/Objetos/mascota.js"></script>
+        <script type="module" src="../Modelo/RecopilacionDatosMascota.js"></script>
+    </head>
+    <body>
+        <div class="encabezadoPagina">
+            <h1>Recopilacion de datos</h1>
+            <h2>Sobre los las mascotas</h2>
+        </div>
+        <div class="espacioBlanco"></div>
+        <div class="contenedor">
+            <label class="etiqueta">Tipo de mascota</label>
+            <select class="Lista" id="tipoMascota">
+                <option value="Ninguno">Seleccione Item</option>
+                <option value="Perro">Perro</option>
+                <option value="Gato">Gato</option>
+            </select>
+
+            <label class="etiqueta">¿Esta esterilizado?</label>
+            <input type="checkbox" id="esterilizacion">
+
+            <label class="etiqueta">¿Tiene la vacuna contra la rabia?</label>
+            <input type="checkbox" id="vacunaRabia">
+        </div>
+
+        <div class="contenedorBotones">
+            <button class="botonNinguno" id="botonNinguno">No hay mascotas</button>
+            <button class="botonAgregar" id="botonAgregar">Agregar Mascotas</button>
+            <button class="botonPrincipal" id="botonContinuar">Ir a vehiculo</button>
+        </div>
+        <footer>
+            <img src="../Vista/favicon/icon.png" class="imagenPiePagina">
+            <div class="textoPiePagina">
+                Junta de acción comunal
+                <br>
+                Praderas de Mosquera II
+            </div>
+        </footer>
+    </body>
+</html>

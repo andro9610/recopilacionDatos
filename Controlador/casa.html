@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recopilacion de datos: Casa</title>
+    <link rel="shorcut icon" type="image/png" href="../Vista/favicon/icon.png">
+    <link rel="stylesheet" href="../Vista/base.css">
+    <link rel="stylesheet" href="../Vista/encabezado.css">
+    <link rel="stylesheet" href="../Vista/contenedores.css">
+    <link rel="stylesheet" href="../Vista/campos.css">
+    <link rel="stylesheet" href="../Vista/botones.css">
+    <link rel="stylesheet" href="../Vista/piePagina.css">
+    <script type="module" src="../Modelo/Objetos/casa.js"></script>
+    <script type="module" src="../Modelo/RecopilacionDatosCasa.js"></script>
+</head>
+<body>
+    <div class="encabezadoPagina">
+        <h1>Recopilacion de datos</h1>
+        <h2>Dirección de la casa</h2>
+    </div>
+    <div class="espacioBlanco"></div>
+    <div class="contenedor" id="contenedorDireccion">
+        <label class="etiquetaInicial">Dirección</label>
+        <br>
+        <label class="textoFormulario">Calle</label>
+        <input type="text" class="miniCampo" id="calle_Parte_A" placeholder="##" required>
+        <select class="miniLista" id="calle_Parte_B" required>
+            <option value=""> </option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+        <label>#</label>
+        <input type="text" class="miniCampo" id="calle_Parte_C" placeholder="##" required>
+        <select class="miniLista" id="calle_Parte_D" required>
+            <option value="-">-</option>
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+        <input type="text" class="miniCampo" id="calle_Parte_E" placeholder="##" required>
+    </div>
+    <div class="contenedorBotones">
+        <button class="botonPrincipal" id="botonContinuar">Ir a habitante</button>
+    </div>
+    <footer>
+        <img src="../Vista/favicon/icon.png" class="imagenPiePagina">
+        <div class="textoPiePagina">
+            Junta de acción comunal
+            <br>
+            Praderas de Mosquera II
+        </div>
+    </footer>
+
+</html>
