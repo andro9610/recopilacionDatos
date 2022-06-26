@@ -4,5 +4,5 @@ window.onload = function(){
 }
 
 function goToCasa(){
-    location.href = "./casa.html";
+    location.href = "./Controlador/casa.html";
 }
