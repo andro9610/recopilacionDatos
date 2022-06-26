@@ -13,7 +13,9 @@ function cargarListeners(){
 
 function recogerDatosMascota(){
     let mascota = new Mascota();
+    alert("¡Mascota registrada!");
     limpiarCampos();
+
     /**Insertar datos de la mascota en SQL*/
 }
 

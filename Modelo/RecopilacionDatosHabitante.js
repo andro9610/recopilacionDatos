@@ -27,6 +27,7 @@ function limpiarCampos(){
 function recogerDatosHabitante(){
     let habitante = new Habitante();
     limpiarCampos();
+    alert("¡Habitante registrado!");
     /**Insertar direccion de la casa en SQL*/
 }
 

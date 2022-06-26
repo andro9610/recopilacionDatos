@@ -7,6 +7,7 @@ function cargarListeners(){
 
 function recogerDatosCasa(){
     sessionStorage.setItem("Casa",new Casa().direccion);
+    alert("¡Casa registrada!");
     /**Insertar direccion de la casa en SQL*/ 
 }
 

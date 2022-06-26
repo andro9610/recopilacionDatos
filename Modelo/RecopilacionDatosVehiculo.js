@@ -13,6 +13,7 @@ function cargarListeners(){
 
 function recogerDatosVehiculo(){
     let vehiculo = new Vehiculo();
+    alert("¡Vehiculo registrado!");
     limpiarCampos();
     /**Insertar datos de la mascota en SQL*/
 }
