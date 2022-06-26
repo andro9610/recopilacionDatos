@@ -19,8 +19,8 @@
 /**Boton Agregar "Cosas"*/
 .botonAgregar{
     background-color: transparent;
-    border: 3px solid #0055c5;
-    color: #0055c5;
+    border: 3px solid #018a51;
+    color: #018a51;
     font-family: Timeless Bold;
     border-radius: 10px;
     padding: 4% 10%;
@@ -29,7 +29,7 @@
 }
 
 .botonAgregar:active{
-    background-color: #0055c5;
+    background-color: #018a51;
     color: white;
 }
 
@@ -37,8 +37,8 @@
 /**Boton Agregar "Cosas"*/
 .botonNinguno{
     background-color: transparent;
-    border: 3px solid #0055c5;
-    color: #0055c5;
+    border: 3px solid #8f0101;
+    color: #8f0101;
     font-family: Timeless Bold;
     border-radius: 10px;
     padding: 4% 10%;
@@ -47,6 +47,6 @@
 }
 
 .botonNinguno:active{
-    background-color: #0055c5;
+    background-color: #8f0101;
     color: white;
 }
